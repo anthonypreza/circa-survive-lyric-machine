@@ -14,8 +14,6 @@ You will need to create a new folder `api/model` and place two files in it `circ
 - Instructions on training and saving text generation model
 - API and deployment tests
 
-# Backend
-
 ## Available Scripts
 
 In the project directory, you can run:
@@ -37,9 +35,6 @@ Install development dependencies, start the Flask server, and start the frontend
 Start a local Gunicorn server to test the app as it would run in a production environment.
 
 # Frontend
-
-# Frontend
-
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
