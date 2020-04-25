@@ -1,0 +1,10 @@
+#!/bin/bash
+
+echo "Building static bundle"
+if [ -d "build" ]; then rm -R build; fi
+if [ -d "logs" ]; then rm -R logs; fi
+mkdir logs
+yarn build
+echo "Logging application logs to logs/gunicorn.log"
+echo "Serving application at http://localhost:8000"
+yarn local

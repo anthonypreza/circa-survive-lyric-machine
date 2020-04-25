@@ -1,0 +1,5 @@
+#!/bin/bash
+
+.venv/bin/pip install -rrequirements-dev.txt
+export FLASK_APP=api.api:APP
+yarn start-api & yarn start

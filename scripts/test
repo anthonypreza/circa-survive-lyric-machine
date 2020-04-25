@@ -1,0 +1,4 @@
+#!/bin/bash
+
+.venv/bin/pip install tox
+.venv/bin/tox && yarn test
